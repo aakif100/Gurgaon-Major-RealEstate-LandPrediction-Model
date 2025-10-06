@@ -163,3 +163,5 @@ linear_rmses = -cross_val_score(
 print("Decision Tree CV RMSEs:", linear_rmses)
 print("\nCross-Validation Performance (linear regression ):")
 print(pd.DataFrame(linear_rmses).describe())
+
+# now since radnomforest has least rmse hence will be trained on that among these..
