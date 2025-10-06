@@ -6,7 +6,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.impute import SimpleImputer
 from sklearn.compose import ColumnTransformer
 
-# load the gousing.csv file man
+# load the gousing.csv file 
 
 data = pd.read_csv('housing.csv')
 
